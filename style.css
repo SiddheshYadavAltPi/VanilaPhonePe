@@ -1,0 +1,220 @@
+/* CSS reset  */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* temporary */
+body{
+    background-color: #e3d3ff !important;
+}
+
+/* Navbar */
+nav{
+    display: grid !important;
+    grid-auto-flow: column;
+    padding: 10px ;
+    align-items: center;
+    background-color: #6739b7;
+    margin-bottom: 10px;
+    position:sticky;
+    top: 0;
+    z-index: 3;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+}
+nav div{
+    color: white;
+    margin: 0 10px;
+}
+nav div h2{
+    font-size: 20px;
+    margin: 0 !important;
+}
+nav div svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+#help{
+    font-size: 25px;
+    width: 35px;
+    height: 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0 0 5px 0;
+}
+
+/* carousel */
+.carousel-item img{
+    border-radius: 15px !important;
+}
+
+/* Section 1*/
+#transferMoney{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+#sec1Head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#sec1Head button{
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    color: gray;
+}
+.sec1SVG{
+    height: 40px;
+    width: 40px;
+    background-color: #6739b7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#sec1Body{
+    display: flex;
+    justify-content: space-between;
+
+}
+#sec1Body div{
+    text-align: center;
+}
+
+
+/* section2 */
+#sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin: 10px; */
+    padding: 10px;
+}
+#sec2 div{
+    border-radius: 15px;
+    background-color: rgb(64, 64, 255);
+    color: white;
+    padding: 10px;
+    margin: 0 3px;
+    text-align: center;
+}
+.sec2SVG{
+    height: 30px;
+    width: 30px;
+}
+
+/* section2 */
+#sec3{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+.sec3R{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    justify-content: space-between;
+
+}
+.sec3R div{
+    text-align: center;
+}
+
+.sec3SVG{
+    height: 30px;
+    width: 30px;
+    margin:10px 0;
+}
+
+#seeAll{
+    margin: 15px 0 0 35%;
+    width: fit-content;
+    height: 30px;
+    text-align: center;    
+    color: white;
+    background-color: #6739b7;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seeAll svg{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+/* DummySec */
+.dummySec{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#sec5{
+    margin-bottom: 26%;
+}
+
+
+
+
+
+#footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+}
+#footer div div{
+    background-color: #6739b7;
+    text-align: center;
+
+    padding: 0 10px;
+    border-radius: 50%;
+}
+.footerSVG{
+    height: 30px;
+    width: 30px;
+    margin:10px 0;
+}
+
+
+
+/* hover efects */
+.btnHover:active{
+    border: none;
+    background-color: grey;
+    border-radius: 50%;
+    outline: solid gray 40px 40px;
+}
+
+
+
+ 
